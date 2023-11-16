@@ -1,0 +1,30 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: rgb(232, 232, 232);
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.437);
+}
+
+h2{
+    text-align: center;
+}
+
+.contenedor-tabla{
+    height: 80%;
+    margin: 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid #000; /* Color y estilo de la línea */
+    height: 100%; /* Altura de la línea */
+    margin: 0 10px; /* Margen entre la línea y los elementos adyacentes */
+}
